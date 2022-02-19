@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+p {
+    padding-top: 350px;
+    font-size: 20px;
+}
+
+.title {
+    background: url('assets/title.png') no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.bg {
+    background: url('assets/redwaves.png') center;
+    height: 120%;
+    width: 400%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat-x;
+    animation: bg 20s linear infinite;
+    filter: blur(15px)
+}
+
+@keyframes bg {
+    100% {
+        transform: translateX(-1000px);
+    }
+}
