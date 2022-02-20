@@ -1,7 +1,7 @@
 
 
 document.querySelector("#titlepage").addEventListener("keyup", event => {
-  if (event.key !== "Enter") return;
+  if (event.code !== "Enter") return;
   window.location = "game.html";
   event.preventDefault();
 });
