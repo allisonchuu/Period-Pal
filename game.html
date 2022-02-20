@@ -152,7 +152,10 @@
             };
             document.body.appendChild(script);
         </script>
-
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.5;
+        </script>
         <audio control autoplay loop src="audio/music.mp3" id="myaudio"></audio>
         <script src="script.js"></script>
 </body>
