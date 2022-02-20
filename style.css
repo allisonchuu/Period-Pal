@@ -48,7 +48,7 @@ a {
     display: flex; 
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 200px;
     height: 100px;
  
 }
@@ -107,6 +107,120 @@ a {
     padding-top: 0px;
     padding-bottom: 15px;
     border-radius: 15px;
-    width: 70%;
-    height: 70vh;
+    width: 600px;
+    height: 550px;
+}
+
+.info {
+    background-position: left top;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.info img{
+    width: 5%;
+    height: auto;
+}
+
+.infoa {
+    background-position: left top;
+    margin-top: 27px;
+    margin-left: 90px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: LeftRight 1s linear infinite;
+}
+@keyframes LeftRight {
+    0%, 100% {
+      left: 425px;
+    }
+    50% {
+      left: 430px;
+    }
+  }
+.infoa img{
+    width: 2.5%;
+    height: auto;
+}
+
+
+.tea {
+    background-position: left top;
+    margin-top: 5px;
+    margin-left: -550px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.tea img{
+    width: 4%;
+    height: auto;
+}
+
+.water {
+    background-position: left top;
+    margin-top: 15px;
+    margin-left: -475px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.water img{
+    width: 3%;
+    height: auto;
+}
+
+.food {
+    background-position: left top;
+    margin-top: 20px;
+    margin-left: -405px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.food img{
+    width: 3%;
+    height: auto;
+}
+
+.choc {
+    background-position: left top;
+    margin-top: 25px;
+    margin-left: -325px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.choc img{
+    width: 4%;
+    height: auto;
+}
+
+.exercise {
+    background-position: left top;
+    margin-top: 30px;
+    margin-left: -240px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.exercise img{
+    width: 4%;
+    height: auto;
+}
+
+.sleep {
+    background-position: left top;
+    margin-top: 20px;
+    margin-left: -170px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.sleep img{
+    width: 3%;
+    height: auto;
 }
