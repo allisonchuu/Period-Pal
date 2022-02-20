@@ -36,7 +36,6 @@ a {
 }
 
 .titlegame {
-    padding-bottom: 85vh;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -90,4 +89,18 @@ a {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.game {
+    background-color: white;
+    display: flex; 
+    align-items: right;
+    justify-content: right;
+    padding-top: px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+
+    width: 70%;
+    height: 70vh;
+    bottom: 50;
 }
