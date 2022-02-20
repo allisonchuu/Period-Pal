@@ -58,7 +58,7 @@
 
         </div>
         <div id="unity-container" class="unity-desktop">
-            <canvas id="unity-canvas" width=960 height=600></canvas>
+            <canvas id="unity-canvas" width=800px height=600></canvas>
             <div id="unity-loading-bar">
                 <div id="unity-logo"></div>
                 <div id="unity-progress-bar-empty">
@@ -69,7 +69,7 @@
             <div id="unity-footer">
                 <div id="unity-webgl-logo"></div>
                 <div id="unity-fullscreen-button"></div>
-                <div id="unity-build-title">Period Pal</div>
+                <div id="unity-build-title">AthenaHacks</div>
             </div>
         </div>
         <script>
@@ -105,11 +105,11 @@
             }
 
             var buildUrl = "Build";
-            var loaderUrl = buildUrl + "/Period Pal.loader.js";
+            var loaderUrl = buildUrl + "/Period-Pal.loader.js";
             var config = {
-                dataUrl: buildUrl + "/Period Pal.data.br",
-                frameworkUrl: buildUrl + "/Period Pal.framework.js.br",
-                codeUrl: buildUrl + "/Period Pal.wasm.br",
+                dataUrl: buildUrl + "/Period-Pal.data.unityweb",
+                frameworkUrl: buildUrl + "/Period-Pal.framework.js.unityweb",
+                codeUrl: buildUrl + "/Period-Pal.wasm.unityweb",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "DefaultCompany",
                 productName: "AthenaHacks",
@@ -131,7 +131,7 @@
                 config.devicePixelRatio = 1;
                 unityShowBanner('WebGL builds are not supported on mobile devices.');
             } else {
-                canvas.style.width = "700px";
+                canvas.style.width = "600px";
                 canvas.style.height = "400px";
             }
             loadingBar.style.display = "block";
@@ -152,10 +152,9 @@
             };
             document.body.appendChild(script);
         </script>
-    </div>
 
-    <audio controls autoplay loop src="audio/music.mp3"></audio>
-    <script src="script.js"></script>
+        <audio control autoplay loop src="audio/music.mp3" id="myaudio"></audio>
+        <script src="script.js"></script>
 </body>
 
 </html>
