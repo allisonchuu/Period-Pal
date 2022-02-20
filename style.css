@@ -32,7 +32,16 @@ a {
     position: absolute;
     height: 100%;
     width: 100%;
- 
+    animation: UpDown 3.5s linear infinite;
+}
+
+@keyframes UpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 25px;
+  }
 }
 
 .titlegame {
@@ -73,6 +82,7 @@ a {
     filter: blur(15px)
 }
 
+
 @keyframes bg {
     100% {
         transform: translateX(-1000px);
@@ -96,11 +106,9 @@ a {
     display: flex; 
     align-items: right;
     justify-content: right;
-    padding-top: px;
+    padding-top: 10px;
     padding-bottom: 15px;
     border-radius: 15px;
-
     width: 70%;
     height: 70vh;
-    bottom: 50;
 }
