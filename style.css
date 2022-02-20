@@ -20,6 +20,12 @@ p {
     font-size: 20px;
 }
 
+a {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     background: url('assets/title.png') no-repeat;
     background-position: center;
@@ -27,6 +33,34 @@ p {
     height: 100%;
     width: 100%;
  
+}
+
+.titlegame {
+    padding-bottom: 85vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+ 
+}
+
+.titlegame img {
+    width: 70%;
+    height: auto;
+ 
+}
+
+.titlebg {
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    width: 70%;
+    height: auto;
 }
 
 .bg {
@@ -44,4 +78,16 @@ p {
     100% {
         transform: translateX(-1000px);
     }
+}
+
+.back {
+    background-color: rgb(241, 168, 178);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
