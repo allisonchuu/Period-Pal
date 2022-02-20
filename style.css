@@ -45,11 +45,10 @@ a {
 }
 
 .titlegame {
-    display: flex; 
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 120px;
+    height: 100px;
  
 }
 
@@ -104,9 +103,7 @@ a {
 .game {
     background-color: white;
     display: flex; 
-    align-items: right;
-    justify-content: right;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 15px;
     border-radius: 15px;
     width: 70%;
