@@ -123,7 +123,7 @@ b {
 .info {
     background-position: left top;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 70px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -179,7 +179,7 @@ b {
 .choc {
     background-position: left top;
     margin-top: 30px;
-    margin-left: 430px;
+    margin-left: 420px;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -193,7 +193,7 @@ b {
 .exercise {
     background-position: left top;
     margin-top: 35px;
-    margin-left: 515px;
+    margin-left: 505px;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -207,7 +207,7 @@ b {
 .sleep {
     background-position: left top;
     margin-top: 20px;
-    margin-left: 590px;
+    margin-left: 580px;
     position: absolute;
     height: 50px;
     width: 50px;
