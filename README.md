@@ -6,6 +6,6 @@ Period Pal is a tamogatchi-like menstrual cycle care-taking app that has a repre
 
 **To Use**
 
-Go to link [Period Pal](playperiodpal.tech).
+Go to link [Period Pal](http://www.playperiodpal.tech).
 
 Enjoy!
