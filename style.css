@@ -21,14 +21,14 @@ p {
 }
 
 a {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 b {
-height: 50px;
-width: auto;
+    height: 50px;
+    width: auto;
 }
 
 
@@ -42,32 +42,35 @@ width: auto;
 }
 
 @keyframes UpDown {
-  0%, 100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 25px;
-  }
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 25px;
+    }
 }
 
 .titlegame {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 200px;
     height: 100px;
- 
+
 }
 
 .titlegame img {
     width: 70%;
     height: auto;
- 
+
 }
 
 .titlebg {
     background-color: white;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 15px;
@@ -109,23 +112,24 @@ width: auto;
 
 .game {
     background-color: white;
-    display: flex; 
+    display: flex;
     padding-top: 0px;
     padding-bottom: 15px;
     border-radius: 15px;
-    width: 800px;
+    width: 700px;
     height: 550px;
 }
 
 .info {
     background-position: left top;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 80px;
     position: absolute;
     height: 100%;
     width: 100%;
 }
-.info img{
+
+.info img {
     width: 100px;
     height: auto;
 }
@@ -133,12 +137,13 @@ width: auto;
 .tea {
     background-position: left top;
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: 190px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.tea img{
+
+.tea img {
     width: 55px;
     height: auto;
 }
@@ -146,12 +151,13 @@ width: auto;
 .water {
     background-position: left top;
     margin-top: 20px;
-    margin-left: 320px;
+    margin-left: 270px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.water img{
+
+.water img {
     width: 40px;
     height: auto;
 }
@@ -159,12 +165,13 @@ width: auto;
 .food {
     background-position: left top;
     margin-top: 15px;
-    margin-left: 390px;
+    margin-left: 340px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.food img{
+
+.food img {
     width: 50px;
     height: auto;
 }
@@ -172,12 +179,13 @@ width: auto;
 .choc {
     background-position: left top;
     margin-top: 30px;
-    margin-left: 480px;
+    margin-left: 430px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.choc img{
+
+.choc img {
     width: 50px;
     height: auto;
 }
@@ -185,12 +193,13 @@ width: auto;
 .exercise {
     background-position: left top;
     margin-top: 35px;
-    margin-left: 565px;
+    margin-left: 515px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.exercise img{
+
+.exercise img {
     width: 50px;
     height: auto;
 }
@@ -198,12 +207,13 @@ width: auto;
 .sleep {
     background-position: left top;
     margin-top: 20px;
-    margin-left: 640px;
+    margin-left: 590px;
     position: absolute;
     height: 50px;
     width: 50px;
 }
-.sleep img{
+
+.sleep img {
     width: 50px;
     height: auto;
 }
