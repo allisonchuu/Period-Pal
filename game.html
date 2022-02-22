@@ -105,14 +105,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Period-Pal.loader.js";
+      var loaderUrl = buildUrl + "/PeriodPal.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Period-Pal.data.unityweb",
-        frameworkUrl: buildUrl + "/Period-Pal.framework.js.unityweb",
-        codeUrl: buildUrl + "/Period-Pal.wasm.unityweb",
+        dataUrl: buildUrl + "/PeriodPal.data.unityweb",
+        frameworkUrl: buildUrl + "/PeriodPal.framework.js.unityweb",
+        codeUrl: buildUrl + "/PeriodPal.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "AthenaHacks",
+        productName: "Period Pal",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -152,15 +152,6 @@
       };
       document.body.appendChild(script);
     </script>
-
-        <audio autoplay loop id="myaudio" src="audio/music.mp3">
-        </audio>
-        <script>
-            var audio = document.getElementById("myaudio");
-            audio.volume = 0.02;
-        </script>
-
-
         <script src="script.js"></script>
 </body>
 
