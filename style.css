@@ -50,6 +50,17 @@ b {
     animation: UpDown 3.5s linear infinite;
 }
 
+@media only screen and (max-width:800px) {
+    .title {
+        background: url('assets/title_mobile.png') no-repeat;
+        background-position: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        animation: UpDown 3.5s linear infinite;
+    }
+}
+
 @keyframes UpDown {
 
     0%,
